@@ -59,14 +59,3 @@ class PractitionerManager:
     def get_professions_license_count(self, professionId, practitionerName = "", licenseNum = "", certificate = ""):
         url = self._urls["GetProfessionsLicenseCount"].format(professionId=professionId, practitionerName=practitionerName, licenseNum=licenseNum, certificate=certificate)
         return self._make_api_request(url)
-
-if __name__ == "__main__":
-    logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
-    try:
-        practitioner_manager = PractitionerManager()
-        professions = practitioner_manager.get_all_professions()
-        if professions:
-            logging.info(f"Retrieved {len(professions)} professions.")
-    except Exception as e:
-        logging.error(f"An error occurred: {e}")
