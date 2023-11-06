@@ -1,0 +1,12 @@
+{
+    "User_Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
+    "URL": {"GetPractitioners" : "https://practitionersapi.health.gov.il/Practitioners/api/Practitioners/GetPractitioners?professionId={professionId}&practitionerName={practitionerName}&maxResults={maxResults}&licenseNum={licenseNum}&certificate={certificate}",
+    "GetLicenses" : "https://practitionersapi.health.gov.il/Practitioners/api/Practitioners/GetLicenses?professionId={professionId}&practitionerName={practitionerName}&maxResults={maxResults}&licenseNum={licenseNum}&certificate={certificate}",
+    "GetProfessionsLicense" : "https://practitionersapi.health.gov.il/Practitioners/api/Practitioners/GetProfessionsLicense?professionId={professionId}&practitionerName={practitionerName}&maxResults={maxResults}&licenseNum={licenseNum}&certificate={certificate}&pageNumber={pageNumber}",
+    "GetCertificates": "https://practitionersapi.health.gov.il/Practitioners/api/Practitioners/GetCertificates?professionId={professionId}&practitionerName={practitionerName}&maxResults={maxResults}&licenseNum={licenseNum}&certificate={certificate}&pageNumber={pageNumber}",
+    "GetProfession" : "https://practitionersapi.health.gov.il/Practitioners/api/Practitioners/GetProfession/{professionId}",
+    "GetProfessionsLicenseCount" : "https://practitionersapi.health.gov.il/Practitioners/api/Practitioners/GetProfessionsLicenseCount?professionId={professionId}&practitionerName={practitionerName}&licenseNum={licenseNum}&certificate={certificate}",
+    "GetStatuses" : "https://practitionersapi.health.gov.il/Practitioners/api/Practitioners/GetStatuses",
+    "GetAllProfessions" : "https://practitionersapi.health.gov.il/Practitioners/api/Practitioners/GetAllProfessions"
+    }
+}
